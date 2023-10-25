@@ -1,0 +1,6 @@
+<launch>
+  <node pkg="joy" type="joy_node _autorepeat_rate:=20 _deadzone:=0.3" name="motor"/>
+
+  <node pkg="ip200_teleop" type="get_joy_y_axis.py" name="get_joy_y_axis"/>
+
+</launch>

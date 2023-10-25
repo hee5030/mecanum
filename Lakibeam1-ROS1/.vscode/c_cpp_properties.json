@@ -1,0 +1,63 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/jusang/ip200_ws/devel/include/**",
+        "/home/jusang/catkin_ws/devel/include/**",
+        "/home/jusang/carto_ws/devel_isolated/cartographer_ros_msgs/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/jusang/carto_ws/devel_isolated/cartographer/include/**",
+        "/home/jusang/catkin_ws/src/adl200_ros-main/adl200_core/include/**",
+        "/home/jusang/catkin_ws/src/adl200_ros-main/adl200_motor_driver/include/**",
+        "/home/jusang/ip200_ws/src/navigation/amcl/include/**",
+        "/home/jusang/ip200_ws/src/navigation/base_local_planner/include/**",
+        "/home/jusang/ip200_ws/src/navigation/carrot_planner/include/**",
+        "/home/jusang/ip200_ws/src/navigation/clear_costmap_recovery/include/**",
+        "/home/jusang/ip200_ws/src/navigation/costmap_2d/include/**",
+        "/home/jusang/catkin_ws/src/darknet_ros/darknet_ros/include/**",
+        "/home/jusang/ip200_ws/src/navigation/dwa_local_planner/include/**",
+        "/home/jusang/catkin_ws/src/fast_gicp/include/**",
+        "/home/jusang/ip200_ws/src/gl_ros_driver_udp/include/**",
+        "/home/jusang/ip200_ws/src/navigation/global_planner/include/**",
+        "/home/jusang/catkin_ws/src/hdl_global_localization/include/**",
+        "/home/jusang/catkin_ws/src/hdl_graph_slam/include/**",
+        "/home/jusang/catkin_ws/src/hdl_localization/include/**",
+        "/home/jusang/ip200_ws/src/IP200_ROS/ip200_core/include/**",
+        "/home/jusang/ip200_ws/src/IP200_ROS/ip200_motor_driver/include/**",
+        "/home/jusang/ip200_ws/src/Lakibeam1-ROS1/lakibeam1_ros_v1_0_0/include/**",
+        "/home/jusang/ip200_ws/src/navigation/map_server/include/**",
+        "/home/jusang/catkin_ws/src/move_base_flex/mbf_abstract_core/include/**",
+        "/home/jusang/catkin_ws/src/move_base_flex/mbf_abstract_nav/include/**",
+        "/home/jusang/catkin_ws/src/move_base_flex/mbf_costmap_core/include/**",
+        "/home/jusang/catkin_ws/src/move_base_flex/mbf_costmap_nav/include/**",
+        "/home/jusang/catkin_ws/src/move_base_flex/mbf_simple_nav/include/**",
+        "/home/jusang/catkin_ws/src/move_base_flex/mbf_utility/include/**",
+        "/home/jusang/ip200_ws/src/navigation/move_base/include/**",
+        "/home/jusang/ip200_ws/src/navigation/move_slow_and_clear/include/**",
+        "/home/jusang/catkin_ws/src/mowing_planner/include/**",
+        "/home/jusang/catkin_ws/src/ethzasl_msf/msf_core/include/**",
+        "/home/jusang/catkin_ws/src/ethzasl_msf/msf_timing/include/**",
+        "/home/jusang/catkin_ws/src/ethzasl_msf/msf_updates/include/**",
+        "/home/jusang/ip200_ws/src/navigation/nav_core/include/**",
+        "/home/jusang/ip200_ws/src/navigation/navfn/include/**",
+        "/home/jusang/catkin_ws/src/ndt_omp/include/**",
+        "/home/jusang/catkin_ws/src/pointcloud_to_laserscan/include/**",
+        "/home/jusang/catkin_ws/src/robot_mower_2dnav/include/**",
+        "/home/jusang/ip200_ws/src/navigation/rotate_recovery/include/**",
+        "/home/jusang/catkin_ws/src/teb_local_planner/include/**",
+        "/home/jusang/ip200_ws/src/navigation/voxel_grid/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

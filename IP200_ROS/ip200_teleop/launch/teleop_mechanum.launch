@@ -1,0 +1,16 @@
+<launch>
+  <arg name="joy_config" default="ps3"/>
+  <arg name="joy_dev" default="/dev/input/js0" />
+  
+  <node pkg="joy" type="joy_node" name="joy_node">
+    <param name="dev" value="$(arg joy_dev)" />
+    <param name="deadzone" value="0.3" />
+    <param name="autorepeat_rate" value="20" />
+  </node>
+
+  <node pkg="ip200_teleop" name="teleop_joy_mechanum" type="get_joy_y_axis.py">
+    <param name="lin_x_scale" value="0.2"/>
+    <param name="lin_y_scale" value="0.2"/>
+    <param name="ang_z_scale" value="0.5"/>
+  </node>
+</launch>

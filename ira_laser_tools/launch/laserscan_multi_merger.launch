@@ -1,0 +1,28 @@
+<!-- DESCRITPION -->
+
+<launch>
+	<node pkg="ira_laser_tools" name="laserscan_multi_merger" type="laserscan_multi_merger" output="screen">
+	<!-- <param name="destination_frame" value="base_link"/> -->
+	<param name="destination_frame" value="base_scan"/>
+	<param name="cloud_destination_topic" value="/merged_cloud"/>
+	<param name="scan_destination_topic" value="/scan"/>
+	<!-- <param name="laserscan_topics" value ="/richbeam_lidar/scan_front /richbeam_lidar2/scan_back" /> LIST OF THE LASER SCAN TOPICS TO SUBSCRIBE -->
+	<!-- <param name="laserscan_topics" value ="/scan_f /scan_r" />  -->
+
+	<param name="laserscan_topics" value ="/richbeam_lidar/scan_front /richbeam_lidar2/scan_back" /> 
+	<!-- /richbeam_lidar/scan_front -->
+	<!-- /richbeam_lidar2/scan_back -->
+
+	<param name="angle_min" value="-3.14159274101"/>
+	<param name="angle_max" value="3.14159274101"/>
+	<param name="angle_increment" value="0.0087"/>
+	<param name="scan_time" value="0.033333333"/>
+
+	<!-- <param name="angle_increment" value="0.00545415421948"/> -->
+	<!-- <param name="time_increment" value="0.00006911"/> -->
+	<!-- <param name="scan_time" value="0.0962427780032"/> -->
+
+	<param name="range_min" value="0.2"/>
+	<param name="range_max" value="20.0"/>
+	</node>
+</launch>

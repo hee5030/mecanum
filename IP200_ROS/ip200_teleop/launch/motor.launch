@@ -1,0 +1,6 @@
+<launch>
+  <node pkg="ip200_teleop" type="motor.py" name="motor"/>
+
+  <node pkg="rosserial_python" type="serial_node.py" name="ACM" args="/dev/ttyACM0"/>
+
+</launch>

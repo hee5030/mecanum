@@ -1,0 +1,11 @@
+<launch>
+
+<!--patrol-->
+  <node pkg="ip200_navigation" name="patrol_test" type="patrol_test2.py" output="screen">
+    <rosparam file="$(find ip200_navigation)/config/params0.yaml" command="load" ns="params0"/>
+    <rosparam file="$(find ip200_navigation)/config/params1.yaml" command="load" ns="params1"/>
+    <rosparam file="$(find ip200_navigation)/config/params2.yaml" command="load" ns="params2"/>
+    <rosparam file="$(find ip200_navigation)/config/params3.yaml" command="load" ns="params3"/>
+  </node>
+
+</launch>
